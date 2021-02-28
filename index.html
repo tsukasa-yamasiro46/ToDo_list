@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!--FontAwesomeの導入-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Bootstrapの導入-->
+        <link rel="stylesheet" href="style.css">
+        <title>ToDoList</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="text-conter text-light my-4">
+                <h1 class="mb-4">ToDo List</h1>
+                <form class="search">
+                    <input type="text" class="form-control m-auto" name="search" placeholder="Search Keyword">
+                    <i class="fas fa-search"></i>
+                </form>
+            </header>
+
+            <ul class="list-group todos mx-auto text-light">
+            </ul>
+
+            <form class="add text-center my-4">
+                <label class="text-light">ADDING TASK</label>
+                <input type="text" class="form-control m-auto" name="add" placeholder="New Task">
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
